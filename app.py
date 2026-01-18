@@ -114,12 +114,13 @@ def index():
             margin-bottom: 24px;
             margin-top: 0;
         }
+
         
     </style>
     """
 
     
-    return f"{css}<h2>API PREVIEW (/api)<h2><pre>{tab_data}</pre>"
+    return f'''{css}<h2>API PREVIEW (/api)<h2><pre>{tab_data}</pre><a href="https://github.com/git-divy/api_coin">https://github.com/git-divy/api_coin</a>'''
 
 
 
